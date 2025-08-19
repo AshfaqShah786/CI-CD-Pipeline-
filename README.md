@@ -27,15 +27,19 @@ Before you begin, make sure you have:
 3. Create a Docker Image and Push to Docker Hub
 
 Login to Docker:
+
         docker login
 
 Build and tag the image:
+
         docker build -t ashfaqs96/ci-cd-pipeline:latest .
     
 Push the image:
+
         docker push ashfaqs96/ci-cd-pipeline:latest
 
 4. GitHub Actions: Automate CI/CD
+
             Add GitHub Secrets:
             Go to your GitHub repo → Settings → Secrets and variables → Actions → New repository secret.
             DOCKER_USERNAME = your Docker Hub username
@@ -43,17 +47,20 @@ Push the image:
 
 5. Run Locally with Minikube (Kubernetes)
 
-
 Start Minikube:
+
         minikube start
     
 Create Deployment:
+
         kubectl create deployment myapp --image=ashfaqs96/ci-cd-pipeline:latest
 
 Expose as a NodePort Service:
+
         kubectl expose deployment myapp --type=NodePort --port=5000
 
 Access the Service:
+
         minikube service myapp
 
 

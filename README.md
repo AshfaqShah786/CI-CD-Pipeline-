@@ -22,22 +22,22 @@ GitHub Account
 
 
 1. Clone the Repository
-            git clone https://github.com/AshfaqShah786/CI-CD-Pipeline-.git
-            cd CI-CD-Pipeline-
+    git clone https://github.com/AshfaqShah786/CI-CD-Pipeline-.git
+    cd CI-CD-Pipeline-
 
 2. Run the App Locally (Optional Test)
-            docker-compose up --build
+     docker-compose up --build
 
 
 3. Create a Docker Image and Push to Docker Hub
-        Login to Docker:
-            docker login
+Login to Docker:
+    docker login
 
-        Build and tag the image:
-            docker build -t ashfaqs96/ci-cd-pipeline:latest .
+Build and tag the image:
+    docker build -t ashfaqs96/ci-cd-pipeline:latest .
     
-         Push the image:
-            docker push ashfaqs96/ci-cd-pipeline:latest
+Push the image:
+    docker push ashfaqs96/ci-cd-pipeline:latest
 
 4. GitHub Actions: Automate CI/CD
         Add GitHub Secrets:
@@ -46,16 +46,16 @@ GitHub Account
         DOCKER_PASSWORD = your Docker Hub password
 
 5. Run Locally with Minikube (Kubernetes)
-        Start Minikube:
-            minikube start
+Start Minikube:
+    minikube start
     
-        Create Deployment:
-            kubectl create deployment myapp --image=ashfaqs96/ci-cd-pipeline:latest
+Create Deployment:
+    kubectl create deployment myapp --image=ashfaqs96/ci-cd-pipeline:latest
 
-        Expose as a NodePort Service:
-            kubectl expose deployment myapp --type=NodePort --port=5000
+Expose as a NodePort Service:
+    kubectl expose deployment myapp --type=NodePort --port=5000
 
-        Access the Service:
-            minikube service myapp
+Access the Service:
+    minikube service myapp
 
 🔗 This will open the app in your default browser.

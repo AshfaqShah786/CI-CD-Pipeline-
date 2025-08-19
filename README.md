@@ -7,12 +7,11 @@ This project demonstrates a complete CI/CD pipeline using GitHub Actions, Docker
 ✅ Prerequisites
 
 Before you begin, make sure you have:
-Docker - installed and running
-A Docker Hub account
-Minikube -  for local Kubernetes
-Kubectl
-GitHub Account
-
+    Docker - installed and running
+    A Docker Hub account
+    Minikube -  for local Kubernetes
+    Kubectl
+    GitHub Account
 
 1. Clone the Repository
         git clone https://github.com/AshfaqShah786/CI-CD-Pipeline-.git

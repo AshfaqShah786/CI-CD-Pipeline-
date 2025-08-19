@@ -14,7 +14,7 @@ Before you begin, make sure you have:
     GitHub Account
 
 1. Clone the Repository
-<<<<<<< HEAD
+
         git clone https://github.com/AshfaqShah786/CI-CD-Pipeline-.git
         cd CI-CD-Pipeline-
 2. Run the App Locally (Optional Test)
@@ -40,7 +40,7 @@ Expose as a NodePort Service:
     kubectl expose deployment myapp --type=NodePort --port=5000
 Access the Service:
     minikube service myapp
-=======
+
     git clone https://github.com/AshfaqShah786/CI-CD-Pipeline-.git
     cd CI-CD-Pipeline-
 
@@ -76,5 +76,5 @@ Expose as a NodePort Service:
 Access the Service:
         minikube service myapp
 
->>>>>>> 4a2ee09 (Added Steps for Readme)
+
 🔗 This will open the app in your default browser.

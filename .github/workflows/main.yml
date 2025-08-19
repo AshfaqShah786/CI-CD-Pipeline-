@@ -25,7 +25,7 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         push: true
-        tags: yourdockerhubusername/yourappname:latest
+        tags: ashfaqs96/ci-cd-pipeline:latest
 
     - name: Run tests
       run: |

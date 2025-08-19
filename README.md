@@ -1,8 +1,6 @@
 # CI-CD-Pipeline-
 Project-1
 
-🚀 CI/CD Pipeline with GitHub Actions, Docker & Minikube (No Cloud)
-
 This project demonstrates a complete CI/CD pipeline using GitHub Actions, Docker, Docker Hub, and Minikube to deploy a simple Flask web application. Everything is automated from build to deploy — without using a public cloud provider.
 
 
